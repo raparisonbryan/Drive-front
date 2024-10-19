@@ -1,5 +1,6 @@
 'use client'
 
+import MainContent from "@/components/content/MainContent";
 import styles from "./page.module.scss";
 import DropdownMenu from "@/components/menu/DropdownMenu";
 
@@ -8,7 +9,7 @@ const Page = () => {
     <div className={styles.container}>
       <DropdownMenu />
       <main className={styles.page}>
-        <h1>Page</h1>
+        <MainContent />
       </main>
     </div>
   );
